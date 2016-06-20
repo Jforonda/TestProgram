@@ -4,6 +4,8 @@
  */
 package testprogram;
 
+import java.util.Scanner;
+
 /**
  *
  * @author James
@@ -14,6 +16,15 @@ public class TestProgram {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner input = new Scanner(System.in);
+        double radius;
+        double area;
+        
+        System.out.println("Radius: ");
+        radius = input.nextDouble();
+        area= radius*3.14;
+        
+        System.out.println("The area of the circle of radius " + radius + " is "
+                + area);
     }
 }
