@@ -1,10 +1,6 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package testprogram;
 
-import java.util.Scanner;
+import java.util.*;
 
 /**
  *
@@ -12,9 +8,6 @@ import java.util.Scanner;
  */
 public class TestProgram {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double radius;
@@ -26,5 +19,51 @@ public class TestProgram {
         
         System.out.println("The area of the circle of radius " + radius + " is "
                 + area);
+        
+        
+        List numberSet = new ArrayList();
+        System.out.println("Enter in a set of intergers (Press space after each "
+                + "number): ");
+        for(int i=0;i<10;i++){
+            int userInput = input.nextInt();
+            numberSet.add(userInput);
+        }
+        System.out.println("The number set you have inputed:");
+        System.out.println(numberSet);
+    }
+    
+    /**
+     * Bubble Sort
+     */
+    public void bubbleSort(ArrayList numberSet){
+        
+    }
+    
+    /**
+     * Merge Sort
+     */
+    public void mergeSort(ArrayList numberSet){
+        
+    }
+    
+    /**
+     * Quick Sort
+     */
+    public void quickSort(ArrayList numberSet){
+        
+    }
+    
+    /**
+     * Heap Sort
+     */
+    public void heapSort(ArrayList numberSet){
+        
+    }
+    
+    /**
+     * Insertion Sort
+     */
+    public void insertionSort(ArrayList numberSet){
+        
     }
 }
