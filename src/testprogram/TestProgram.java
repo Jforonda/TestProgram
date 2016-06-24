@@ -35,7 +35,7 @@ public class TestProgram {
     /**
      * Bubble Sort
      */
-    public void bubbleSort(ArrayList numberSet){
+    public static void bubbleSort(ArrayList numberSet){
         
     }
     
