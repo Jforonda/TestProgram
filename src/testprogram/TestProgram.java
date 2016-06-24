@@ -35,14 +35,14 @@ public class TestProgram {
     /**
      * Bubble Sort
      */
-    public void bubbleSort(ArrayList numberSet){
+    public static void bubbleSort(ArrayList numberSet){
         
     }
     
     /**
      * Merge Sort
      */
-    public void mergeSort(ArrayList numberSet){
+    public static void mergeSort(ArrayList numberSet){
         
     }
     
